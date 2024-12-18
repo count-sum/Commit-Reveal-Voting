@@ -1,5 +1,5 @@
-import { SignerWithAddress } from "@nomicfoundation/hardhat-ethers/signers";
-import { CommitRevealVoting, VoterRegistry, CommitRevealLogic } from "../../typechain-types";
+import { SignerWithAddress } from '@nomicfoundation/hardhat-ethers/signers';
+import { CommitRevealVoting, VoterRegistry, CommitRevealLogic } from '../../typechain-types';
 
 export interface Contracts {
     voting: CommitRevealVoting;
